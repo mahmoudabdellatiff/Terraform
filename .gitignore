@@ -1,0 +1,24 @@
+# Terraform local directory
+.terraform/
+
+# State files (VERY IMPORTANT)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Variables (may contain secrets)
+*.tfvars
+terraform.tfvars
+
+# Sensitive local files
+rds_password.txt
+
+# Crash logs
+crash.log
+crash.*.log
+
+# CLI config
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
